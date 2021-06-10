@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <DebugType>full</DebugType>
+    <PackageId>Cashwu.AspNetCore.AgileConfig</PackageId>
+    <PackageProjectUrl>https://github.com/cashwu/Cashwu.AspNetCore.AgileConfig</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageDescription>ASP.NET Core Agile Config</PackageDescription>
+    <Version>1.0.0</Version>
+    <Company>cashwu</Company>
+    <AssemblyName>Cashwu.AspNetCore.AgileConfig</AssemblyName>
+    <RootNamespace>Cashwu.AspNetCore.AgileConfig</RootNamespace>
+    <Authors>cashwu</Authors>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+  </ItemGroup>
+</Project>
