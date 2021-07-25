@@ -15,7 +15,7 @@
 ## 02 add project setup in `Program`
 
 - `ConnectionStringName` is appsettings `ConnectionStrings` key
-- `PollingInterval` is interval second to query db
+- `PollingInterval` is interval second to query db, default is 5 second
 
 ```
  Host.CreateDefaultBuilder(args)
